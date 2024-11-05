@@ -76,6 +76,3 @@ def dropping():
     conn.commit()
     conn.close()
     return "Basketball Table Successfully Dropped"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3308)
